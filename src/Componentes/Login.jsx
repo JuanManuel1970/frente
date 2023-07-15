@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom';
 
-const Login = () => {
+const Login = ({ setIsAuthenticated }) => {
   const { register, handleSubmit, formState: { errors } } = useForm();
   const navigate = useNavigate();
 
@@ -18,6 +18,7 @@ const Login = () => {
           title: '¡Inicio de sesión exitoso!',
           text: 'Has iniciado sesión correctamente.',
         }).then(() => {
+          setIsAuthenticated(true);
           navigate('/edicionformulario');
         });
       } else {
