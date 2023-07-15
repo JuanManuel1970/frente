@@ -32,9 +32,7 @@ function Navegar() {
             <Nav.Link as={Link} to="/formulario" onClick={() => setExpanded(false)}>
               Formulario
             </Nav.Link>
-            <Nav.Link as={Link} to="/edicionformulario" onClick={() => setExpanded(false)}>
-              Edicion Formulario
-            </Nav.Link>
+         
             <Nav.Link as={Link} to="/faq" onClick={() => setExpanded(false)}>
               Faq
             </Nav.Link>
