@@ -136,7 +136,7 @@ const Home = () => {
     
 
       <h2 className="text-center mb-4">
-        <img src={pesaImage} alt="Pesa" className="pesa-image" />  Asociate ya !!!       <img src={pesaImage} alt="Pesa" className="pesa-image" />
+        <img src={pesaImage} alt="Pesa" className="pesa-image" /> ¡¡¡ Asociate ya !!!       <img src={pesaImage} alt="Pesa" className="pesa-image" />
       </h2>
 
 
