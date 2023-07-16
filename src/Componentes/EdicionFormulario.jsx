@@ -105,7 +105,7 @@ const EdicionFormulario = () => {
                         console.log('Dato actualizado');
                       }}
                     >
-                      Update
+                      Modificar
                     </Button>
                   </Link>
                 </Table.Cell>
@@ -114,7 +114,7 @@ const EdicionFormulario = () => {
                     className="btn btn-danger"
                     onClick={() => onDelete(data._id)}
                   >
-                    Delete
+                    Borrar
                   </Button>
                 </Table.Cell>
               </Table.Row>

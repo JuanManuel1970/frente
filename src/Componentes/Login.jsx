@@ -19,7 +19,7 @@ const Login = ({ setIsAuthenticated }) => {
           text: 'Has iniciado sesión correctamente.',
         }).then(() => {
           setIsAuthenticated(true);
-          navigate('/edicionformulario'); // Navigate to the EdicionFormulario component
+          navigate('/edicionformulario'); 
         });
       } else {
         Swal.fire({
