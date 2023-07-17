@@ -5,6 +5,7 @@ import Productos from "./Componentes/Productos";
 import Formulario from "./Componentes/Formulario";
 import EdicionFormulario from "./Componentes/EdicionFormulario";
 import Faq from "./Componentes/faq";
+import Rutinas from "./Componentes/Rutinas";
 import Update from "./Componentes/Update";
 import Runing from "./Componentes/Runing";
 import Footer from "./Componentes/Footer";
@@ -30,6 +31,7 @@ function App() {
         <Route path="/formulario" element={<Formulario />} />
         <Route path="/edicionformulario" element={<EdicionFormulario />} />
         <Route path="/faq" element={<Faq />} />
+        <Route path="/rutinas" element={<Rutinas />} />
         <Route path="/runing" element={<Runing />} />
         <Route path="/update" element={<Update />} />
         <Route path="/login" element={<Login setIsAuthenticated={setIsAuthenticated} />} />
