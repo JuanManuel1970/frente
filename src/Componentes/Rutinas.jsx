@@ -26,9 +26,10 @@ const Rutinas = () => {
         hour12: true,
       });
       
-      pdf.text('<<<Gracias por visitar nuestra pagina !!!>>>', 50, yPosition + 50);
-      pdf.text('<<<<TE ESPERAMOS PRONTO EN MERNGYM !!!!>>>>', 30, yPosition + 90);
+      pdf.text('<<< Gracias por visitar nuestra pagina !!! >>>', 50, yPosition + 50);
+      pdf.text('<<<< TE ESPERAMOS PRONTO EN MERNGYM !!!! >>>>', 30, yPosition + 90);
       
+      pdf.text('<<< A dejar un poquito la programacion con BERNI y a entrenar !!! >>>', 20, yPosition + 110);
       pdf.text(`Fecha de impresión: ${currentDate} - Hora: ${currentTime}`, 10, yPosition + 20);
     pdf.save(`${title}.pdf`); 
   };

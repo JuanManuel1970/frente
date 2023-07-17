@@ -78,7 +78,7 @@ const EdicionFormulario = () => {
         <h1>Listado de Clientes registrados</h1>
       </div>
 
-      {/* tabla para mostrar a los clientes */}
+    
       <Table singleLine>
         <Table.Header>
           <Table.Row>

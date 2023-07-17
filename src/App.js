@@ -10,7 +10,7 @@ import Update from "./Componentes/Update";
 import Runing from "./Componentes/Runing";
 import Footer from "./Componentes/Footer";
 import { Routes, Route } from 'react-router-dom';
-import Login from "./Componentes/Login"; // Asegúrate de que la ruta sea correcta si el archivo está en una ubicación diferente
+import Login from "./Componentes/Login"; 
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
