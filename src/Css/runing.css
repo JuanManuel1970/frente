@@ -17,3 +17,37 @@
         background-position: top right;
     }
 }
+.yo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-color: #000000;
+    background-image: url(../assets/clima.jpg);
+    background-size: 300%;
+    animation: movimiento 5s infinite linear alternate;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 2vw; 
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+    }
+    
+    .yo2 h3,
+    .yo2 p {
+    color: #0c038b;
+    -webkit-text-stroke: #0c038b;; 
+    }
+    
+    
+    
+   
+    
