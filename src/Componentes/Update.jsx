@@ -15,14 +15,12 @@ const Update = () => {
   const [nombre, setNombre] = useState('');
   const [apellido, setApellido] = useState('');
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
 
   useEffect(() => {
     setID(localStorage.getItem('ID'));
     setNombre(localStorage.getItem('Nombre'));
     setApellido(localStorage.getItem('Apellido'));
     setEmail(localStorage.getItem('Email'));
-    setPassword(localStorage.getItem('Password'));
   }, []);
 
   const updateApiData = () => {
@@ -33,7 +31,6 @@ const Update = () => {
         nombre,
         apellido,
         email,
-        password,
       })
       .then(() => {
         Swal.fire({
@@ -87,17 +84,6 @@ const Update = () => {
             name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-          />
-        </Form.Field>
-        <Form.Field>
-          <label>Password: </label>
-          <input
-            className="form-control"
-            placeholder="Password de 6 a 10 caracteres"
-            type="password"
-            name="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
           />
         </Form.Field>
         <div className="text-center mt-4">
